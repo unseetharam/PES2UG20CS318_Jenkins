@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cat temp.cpp'
-                echo 'Test by CS318 successful'
+                ech 'Test by CS318 successful'
             }
         }
 
